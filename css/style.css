@@ -1,0 +1,32 @@
+/* element selector */
+h1{
+    color: rebeccapurple;
+}
+
+/* class selector */
+.container{
+    color: blue;
+}
+
+/* PsedoSelectors */
+.container2 ul li:hover{
+    color: green;
+}
+
+/* id selector */
+#idselector{
+    background-color: aqua;
+}
+
+/* link color or PsedoSelector */
+.glink:link{
+    color: blue;
+}
+
+.glink:visited{
+    color: red;
+}
+
+.moreselector h2 + a{
+    color: yellow;
+}

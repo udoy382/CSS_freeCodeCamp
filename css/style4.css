@@ -1,0 +1,26 @@
+/* FONT SIZE, BOLDING & STYLE */
+
+
+body{
+    /* a little bit big font size */
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.italics{
+    font-style: italic;
+    /* font-style: oblique; */
+
+    color: green;
+}
+
+.container p{
+    font-family: sans-serif;
+    /* font-family: monospace; */
+
+    /* font-family: 'Times New Roman', Times, serif; */
+}

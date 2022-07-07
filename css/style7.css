@@ -1,0 +1,80 @@
+/* FLEX ITEM ORDER */
+/* SHRINK, GROW, & BASIS */
+
+.container{
+    background-color: #99bebe;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-item{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.container2{
+    background-color: yellowgreen;
+    margin: 10px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.container-item2{
+    background-color: yellow;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 50px;
+    margin: 10px
+}
+
+/* this file code here from here */
+
+.container-item2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+
+/* THE FLEX PROPERTY */
+
+.container-item2{
+    /* flex -> grow, shrink, basis */
+    flex: 1 0 100px;
+}
+
+/* ITEM ALIGNMENT */
+
+#c24{
+    align-self: flex-start;
+}
+
+#c22{
+    align-self: flex-end;
+}
+
+#c25{
+    align-self: center;
+}
+
+#c21{
+    align-self: center;
+}

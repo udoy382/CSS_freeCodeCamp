@@ -1,0 +1,33 @@
+/* THE TRANSITION PROPERTY */
+
+.grid-container{
+    background-color: #99bebe;
+    margin: 10px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.grid-item{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
+
+/* TRANSITION START FROM HERE */
+
+.submit-button{
+    /* transition: background 0.5s ease-in-out; */
+    transition: all 500ms ease;
+}
+
+.submit-button:hover{
+    color: black;
+    background-color: lightblue;
+    padding: 20px 30px;
+}

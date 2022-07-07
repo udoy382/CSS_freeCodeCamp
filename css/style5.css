@@ -1,0 +1,52 @@
+/* Changing Content Size Here */
+
+#containerimage{
+    height: 300px;
+    /* width: 60%; */
+    /* width: 70vw; */
+}
+
+/* CSS BORDERS */
+
+#containerimage{
+    /* border: 3px solid darkblue; */
+    /* border: 3px dotted darkblue; */
+    /* border: 3px dashed darkblue; */
+    border: 3px double darkblue;
+}
+
+/* MARGIN & PADDING */
+
+#containerimage{
+    /* padding-right: 40px; */
+    /* sort hand padding in one line */
+    /* padding: 100px 40px 5px 0; */
+    /* margin: 40px; */
+    /* margin: 100px 20px 0 10px; */
+
+    /* top and bottom */
+    margin: 80px 40px;
+}
+
+/* FLOAT & DISPLAY TYPES */
+
+/* float any image or text left to right or right to left move anywhare */
+
+#secondimage{
+    height: 300px;
+    width: 400px;
+
+    float: right;
+}
+
+/* #secondimage{
+    display: none;
+} */
+
+#inline{
+    /* inline element not move anyware stay same position */
+    /* display: inline; */
+
+    /* and inline-block move to new line used this mostly */
+    display: inline-block;
+}

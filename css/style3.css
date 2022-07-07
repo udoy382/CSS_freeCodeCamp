@@ -1,0 +1,59 @@
+/* UNITES */
+
+.container h1{
+    /* cm - centimiture */
+    /* font-size: 2cm; */
+
+    /* mm - milimiture */
+    font-size: 6mm;
+}
+
+.container img{
+    /* pt - little bigger then px */
+    /* height: 600pt; */
+    /* height: 600px; */
+    /* pc is lot bigger, -> 1 pc is 12 point */
+    /* height: 600pc; */
+
+    width: 70%;
+
+    /* view port width */
+    /* width: 70vw; */
+
+    /* and view port height */
+    /* height: 400vh; */
+}
+
+/* TEXT MANIPULATION */
+
+body{
+    /* capitalize all first word from txt */
+    /* text-transform: capitalize; */
+
+    /* upercase all txt */
+    /* text-transform: uppercase; */
+    
+    text-transform: none;
+}
+
+.link{
+    /* remove any line or underline from link or other txt */
+    text-decoration: none;
+
+    /* add underline */
+    /* text-decoration: underline; */
+
+    /* cut or drow row in line middle in the text */
+    /* text-decoration: line-through; */
+
+    /* creat a line like a box or up the text */
+    /* text-decoration: overline; */
+}
+
+.container p{
+    /* center all the text!!! */
+    /* text-align: center; */
+
+    /* same width all the text!!!! */
+    text-align: justify;
+}

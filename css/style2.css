@@ -1,0 +1,44 @@
+/* Work with background size */
+
+#service-image{
+    height: 400px;
+    width: 70%;
+    background: url('../img/image.jpg');
+    /* background-repeat: no-repeat; */
+
+    /* repet full width in this size */
+    /* background-size: 50px 100px; */
+
+    /* cover full size image without repeat */
+    background-size: cover;
+
+    /* background-size: contain; */
+    background-color: red;
+}
+
+
+/* Work with colors */
+
+/* rgb color */
+.container h1{
+    color: rgb(27, 129, 57);
+}
+
+.blank{
+    height: 400px;
+    width: 70%;
+    /* background-color: steelblue; */
+
+    /* this is background color left to right go this given color even we add more color there we add + or - deg position or left, right, top, bottom position to move the color*/
+    background: linear-gradient(to right, red, blue, green);
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.blank2{
+    height: 400px;
+    width: 70%;
+
+    /* this color start from middle and other same  even we add how much color we add with persentige % */
+    background: radial-gradient(circle, red 20%, green 55%);
+}

@@ -1,0 +1,42 @@
+/* CREATING A GRID */
+/* TEMPLATE COLUMNS & ROWS */
+/* JUSTIFY & ALING GRID */
+/* ROW & COLUMN GAPS */
+/* COLUM & ROW LINES [ html page ]*/
+/* GRID AREA [ html page ]*/
+
+.grid-container{
+    background-color: #99bebe;
+    margin: 10px;
+    height: 500px;
+
+    display: grid;
+    /* grid-template-columns: 10px 50px 10px; */
+    grid-template-columns: auto auto auto;
+    /* grid-column-gap: 150px; */
+    /* grid-template-rows: 50px 250px; */
+    grid-template-rows: auto auto;
+    /* grid-row-gap: 300px; */
+
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+    /* align-content: space-between; */
+    /* align-content: end; */
+
+    /* grid-gap: 300px 150px; */
+
+
+}
+
+.grid-item{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
